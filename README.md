@@ -1,6 +1,14 @@
 # JSON-Api-Guide
 A guideline to help developers build a robust yet simple and scalable API. This is just to help other developers understand some concepts of API response as understood by me.
 
+## HTTP Verbs
+Verb   |  Context
+------ |  ----------
+Get    |  When you need to retrieve data
+Post   |  When you want to create a new record
+Put    |  When you want to update an existing record
+Delete |  When you want to remove or delete a record
+
 ## Status Codes
 Code | Definition | Context
 ---- | ----------- |-------------------------
