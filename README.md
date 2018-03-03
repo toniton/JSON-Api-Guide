@@ -21,3 +21,22 @@ Code | Definition | Context
 405 | Method Not Allowed
 500 | Internal Server Error
 503 | Service Unavailable
+
+## Response
+
+```javascript
+  {
+    version: '1.0.0',
+    status: 'successful',
+    code: 200,
+    data: [
+      {
+        id: 1,
+        title: 'The green Panther',
+        author: 'Ambrose Alli'
+      }
+    ],
+    message: 'Records retrieved successfully!',
+    errors: null
+  }
+```
